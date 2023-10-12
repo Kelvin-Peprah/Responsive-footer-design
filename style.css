@@ -1,3 +1,11 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   color: rgb(27, 42, 105);
   text-align: center;
@@ -12,13 +20,18 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  gap: 40px;
+  gap: 5px;
   background-color: rgb(8, 16, 48);
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 p {
   color: white;
   text-align: justify;
+  font-size: 15px;
+  margin: 0;
 }
 
 ul {
@@ -26,6 +39,23 @@ ul {
   padding: 0;
 }
 
-li {
-  color: white;
+li, .subscription-title {
+  color: rgb(207, 204, 204);
+}
+
+.footer-container  {
+  padding: 5px;
+}
+
+.news-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.news {
+  text-align: top;
+  margin-bottom: px;
+}
+.subscription-title {
+  width: 270px;
 }

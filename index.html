@@ -14,7 +14,7 @@
       <h2>Using HTML and CSS only</h2>
   
       <footer>
-        <div>
+        <div class="footer-container">
           <p>Info</p>
           <ul>
             <li>Formats</li>
@@ -26,7 +26,7 @@
           </ul>
         </div>
   
-        <div>
+        <div class="footer-container">
           <p>Getting Started</p>
           <ul>
             <li>Introduction</li>
@@ -38,7 +38,7 @@
           </ul>
         </div>
   
-        <div>
+        <div class="footer-container">
           <p>Resources</p>
           <ul>
             <li>API</li>
@@ -50,19 +50,25 @@
           </ul>
         </div>
   
-        <div>
-          <p>Newsletter</p>
-          <p>Suscribe to our news letter for a weekly close of news, updates, helpful tips, and exclusive offers.</p>
-          <input type="email" placeholder="Your email" name="email" id="email">
+        <div id="news-container">
+          <div>
+            <p class="news">Newsletter</p>
+          </div>
+          <div>
+            <p class="subscription-title">
+              Suscribe to our news letter for a weekly close of news, updates, helpful tips, and exclusive offers.
+            </p>
+          </div>
+          <div>
+            <input type="email" placeholder="Your email" name="email" id="email">
           <input type="button" name="submit" id="button" value="submit">
-  
-        <!--
-          <p>Dont forget to add the buttons</p>
-          <p>Social media buttons</p>
-        -->
+          </div>
+          <div>
+            <p>Dont forget to add the buttons</p>
+            <p>Social media buttons</p>
+          </div>        
         </div>
       </footer>
     </div>
-    
   </body>
 </html>
