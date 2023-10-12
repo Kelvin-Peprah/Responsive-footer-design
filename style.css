@@ -1,0 +1,31 @@
+h1 {
+  color: rgb(27, 42, 105);
+  text-align: center;
+}
+h2 {
+  color: rgb(53, 136, 243);
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 40px;
+  background-color: rgb(8, 16, 48);
+}
+
+p {
+  color: white;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: white;
+}
