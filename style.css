@@ -1,18 +1,24 @@
-
-.container {
+body {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+* {
+  margin: 0;
+}
+
+ .footer-header{
+  margin-bottom: 25px;
 }
 
 h1 {
   color: rgb(27, 42, 105);
   text-align: center;
+  margin: 20px;
 }
 h2 {
   color: rgb(53, 136, 243);
   text-align: center;
+  margin: 10px;
 }
 
 footer {
@@ -22,7 +28,7 @@ footer {
   flex-flow: row wrap;
   gap: 5px;
   background-color: rgb(8, 16, 48);
-  margin-top: 50px;
+
   padding: 20px;
   border-radius: 5px;
 }
@@ -31,7 +37,6 @@ p {
   color: white;
   text-align: justify;
   font-size: 15px;
-  margin: 0;
 }
 
 ul {
@@ -55,12 +60,13 @@ li, .subscription-title {
   gap: 13px;
 }
 
-.news {
-  text-align: top;
-  margin-bottom: px;
-}
 .subscription-title {
   width: 270px;
+}
+
+.email-subscription {
+  display: flex;
+  gap: 10px;
 }
 
 #email {
@@ -81,7 +87,6 @@ li, .subscription-title {
   padding: 12px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 4px;
 }
 #button:active {
   background-color: rgb(8, 16, 48);
